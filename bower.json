@@ -34,6 +34,7 @@
     "devDependencies": {
         "js-imagediff": "~1.0.8",
         "jquery": "~3.4.1",
-        "fontawesome": "~5.8.2"
+        "fontawesome": "~5.8.2",
+        "ocrad-bower": "*"
     }
 }
