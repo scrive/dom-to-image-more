@@ -27,7 +27,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/1904labs/dom-to-image-more.git"
+        "url": "git+https://github.com/scrive/dom-to-image-more.git"
     },
     "keywords": [
         "dom",

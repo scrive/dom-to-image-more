@@ -281,10 +281,14 @@
                 }
 
                 function copyStyle(source, target) {
+                    target.fontStretch = '';
+
                     if (source.cssText) {
                         target.cssText = source.cssText;
                         copyFont(source, target); // here we re-assign the font props.
                     } else copyProperties(source, target);
+
+                    target.fontStretch = 'normal';
 
                     function copyProperties(source, target) {
                         util.asArray(source).forEach(function(name) {
